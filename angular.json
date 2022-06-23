@@ -102,5 +102,7 @@
       }
     }
   },
-  "defaultProject": "cats_API"
+  "cli": {
+    "analytics": false
+  }
 }
