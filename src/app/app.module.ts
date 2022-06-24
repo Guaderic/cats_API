@@ -9,8 +9,9 @@ import { CatComponent } from './components';
 import {HttpClientModule} from "@angular/common/http";
 import {MatCardModule} from "@angular/material/card";
 import {MatButtonModule} from "@angular/material/button";
-import { CatDetailsComponent } from './components/cat-details/cat-details.component';
-import { HeaderComponent } from './components/header/header.component';
+import { CatDetailsComponent } from './components';
+import { HeaderComponent } from './components';
+import { NotFoundComponent } from './components';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { HeaderComponent } from './components/header/header.component';
     CatsComponent,
     CatComponent,
     CatDetailsComponent,
-    HeaderComponent
+    HeaderComponent,
+    NotFoundComponent
   ],
   imports: [
     BrowserModule,
