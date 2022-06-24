@@ -1,0 +1,48 @@
+<div *ngFor="let catDetails of cat.breeds">
+  <div *ngIf="cat" class="catDetailsContainer">
+    <div>
+      <img src="{{cat.url}}" alt="cat">
+    </div>
+    <h1 id="title">
+      {{catDetails.name}}
+    </h1>
+    <div id = 'description'>
+      Description :  {{catDetails.description}}
+    </div>
+  </div>
+  <div class="subDetails">
+  <div>
+   Country Origin -- {{catDetails.origin}}
+  </div>
+    <div>
+      Life Span -- {{catDetails.life_span}}  years
+    </div>
+    <div>
+     Adaptability -- {{catDetails.adaptability}}  years
+    </div>
+    <div>
+      Affection level -- {{catDetails.affection_level}}
+    </div>
+     <div>
+      Child friendly --  {{catDetails.child_friendly}}
+     </div>
+    <div>
+     Dog friendly --  {{catDetails.dog_friendly}}
+    </div>
+    <div>
+     Energy level -- {{catDetails.energy_level}}
+    </div>
+    <div>
+      Grooming -- {{catDetails.grooming}}
+    </div>
+    <div>
+      Health issues -- {{catDetails.health_issues}}
+    </div>
+    <div>
+      Intelligence -- {{catDetails.intelligence}}
+    </div>
+  </div>
+</div>
+
+
+

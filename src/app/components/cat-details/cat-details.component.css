@@ -1,0 +1,31 @@
+img{
+  width: 600px;
+  border-radius: 15px;
+}
+.catDetailsContainer{
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 20px;
+
+
+}
+#description{
+  width: 500px;
+  font-size: 30px;
+  color: #eff3f6;
+  font-family: Arial, serif;
+}
+
+#title{
+  font-family: Roboto, sans-serif;
+  color: #eff3f6;
+}
+h1{
+  margin: 20px;
+}
+.subDetails{
+  font-size: 30px;
+  color: #eff3f6;
+  font-family: "Roboto Light", fantasy;
+  margin-top: 50px;
+}
