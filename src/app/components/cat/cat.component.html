@@ -1,0 +1,5 @@
+<div *ngIf="cat" class="cat-container">
+  <div><img src="{{cat.image.url}}" alt="cat"></div>
+  <h2>{{cat.name}}</h2>
+  <div><button mat-button (click)="getDetails()">get details</button></div>
+</div>

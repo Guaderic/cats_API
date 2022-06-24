@@ -1,1 +1,21 @@
-<p>cats works!</p>
+<div class="container">
+  <div class="button">
+    <div>
+      <button id = "prev" mat-button (click)="Change(page-1)">Prev</button>
+
+      <button mat-button (click)="Change(page + 1)">Next</button>
+    </div>
+    <div>
+      <select mat-card-title #c1 name="" id="limit"(change)="(c1.value)">
+        <option value= '10'>10 per page</option>
+        <option value= '15'>15 per page</option>
+        <option value= '20'>20 per page</option>
+      </select>
+      <button id="select" (click)="SelectLimitPerPage(c1.value)">select</button>
+    </div>
+  </div>
+<div class="container-image">
+  <app-cat *ngFor="let cat of cats" [cat] = 'cat'></app-cat>
+</div>
+
+</div>

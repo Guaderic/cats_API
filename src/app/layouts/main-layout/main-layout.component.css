@@ -1,0 +1,9 @@
+.container{
+  width: 100%;
+  box-sizing: border-box;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  height: 2550px;
+  background: linear-gradient(315deg, #3374fb, #fb573f);
+}

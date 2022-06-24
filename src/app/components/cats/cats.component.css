@@ -1,0 +1,36 @@
+.container-image{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+
+.button{
+  display: flex;
+  justify-content:space-between;
+  margin: 5px;
+
+ }
+button{
+  background: darkslateblue;
+  color: #eff3f6;
+}
+select{
+  height: 30px;
+  border-radius: 8px;
+  background: #125699;
+  color: #eff3f6;
+  font-size: 20px;
+}
+#select{
+  height: 40px;
+  width: 100px;
+  background: #fb573f;
+  font-size: 26px;
+  border: none;
+  border-radius: 10px;
+
+}
+#prev{
+  margin-right: 8px;
+}
